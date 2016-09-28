@@ -1,0 +1,80 @@
+#megamenu {
+	background: #fff;
+	display: inline;
+	padding: 0;
+	width: 100%;
+	z-index: 11;
+}
+
+#megamenu a {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	padding: 15px 0 10px 5px;
+	text-decoration: none;
+}
+
+#megamenu > .category-list {
+	background: #ece4dd;
+	list-style: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+#megamenu ul > li > ul {
+	list-style: none;
+	display: none;
+	margin: 0;
+}
+
+#megamenu ul > li, #megamenu img {
+	display: inline-block;
+	font-size: .95em;
+	padding: 10px;
+}
+
+#megamenu ul li:nth-child(8) {
+	display: none;
+}
+
+#megamenu ul li:nth-child(9) {
+	display: none;
+}
+
+#megamenu ul li:nth-child(7) {
+	display: none;
+}
+
+#megamenu > ul > li:hover {
+	background: #fff;
+}
+
+#hiddenmenu {
+	background: white;
+	box-shadow: 0 0 5px rgba(0,0,0,0.25);
+	display: block;
+	min-height: 220px;
+	margin: 0;
+	position: absolute;
+	width: 980px;
+	z-index: 11;
+}
+#hiddenmenu > ul {
+	display: inline-block;
+	margin: 0;
+	width: 770px;
+}
+#hiddenmenu img {
+	position: absolute;
+	margin: 0;
+	width: 200px;
+}
+#hiddenmenu > ul > li {
+	margin: 0;
+	width: 220px;
+}
+
+#hiddenmenu > ul > li > a {
+	letter-spacing: -0.2px;
+	font-size: .85em;
+}
